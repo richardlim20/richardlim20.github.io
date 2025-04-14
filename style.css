@@ -10,3 +10,7 @@
 .screenshot-img {
   max-width: 300px;
 }
+
+a > img {
+  width: 32px;
+}
