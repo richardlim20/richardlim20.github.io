@@ -1,0 +1,12 @@
+#profile-image {
+  max-width: 500px;
+}
+.logo {
+  max-width: 32px;
+}
+.card-header {
+  display: flex;
+}
+.screenshot-img {
+  max-width: 300px;
+}
