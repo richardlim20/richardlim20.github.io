@@ -5,18 +5,33 @@
   }
   p {
     font-family: "Roboto", sans-serif;
+    font-size: 16px;
   }
-  #profile-image-container {
-    margin: 16px;
-  }
-  #profile-image {
-    max-width: 100%;
+  h2{
+    font-weight: 500;
   }
   .logo {
     max-width: 32px;
   }
-  .card-header {
-    display: flex;
+  h2 {
+    text-align: center;
+  }
+  /* Profile section */
+  #profile-image-container {
+    position: relative;
+    padding: 32px 64px 128px 64px;
+    background:linear-gradient(150deg ,steelblue 50%, white 50%)
+  }
+  #profile-image {
+    max-width: 100%;
+  }
+  #profile-image-text{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: xx-large;
   }
   .screenshot-img {
     max-width: 100%;
@@ -27,9 +42,6 @@
   a > img {
     width: 32px;
   }
-  h2 {
-    text-align: center;
-  }
   #about-me-git{
     display: flex;
     justify-content: center;
@@ -37,6 +49,10 @@
   }
   #about-me-description{
     margin: 8px 16px;
+  }
+  /* Project Section */
+  .card-header {
+    display: flex;
   }
   .project-card {
     margin: 32px 16px;
@@ -58,6 +74,7 @@
     padding: 0px 16px;
     margin: 0px 16px 16px 16px;
   }
+  /* Footer */
   footer{
     padding: 16px 0px;
     background-color: steelblue;
@@ -65,6 +82,11 @@
   }
   #footer-details {
     margin: 0px 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+  #footer-details > div {
+    margin-bottom: 8px;
   }
   #footer-git {
     display: flex;
