@@ -1,16 +1,71 @@
-#profile-image {
-  max-width: 500px;
-}
-.logo {
-  max-width: 32px;
-}
-.card-header {
-  display: flex;
-}
-.screenshot-img {
-  max-width: 300px;
-}
 
-a > img {
-  width: 32px;
+@media (max-width: 600px){
+  body{
+    margin: 0px;
+  }
+  #profile-image-container {
+    margin: 16px;
+  }
+  #profile-image {
+    max-width: 100%;
+  }
+  .logo {
+    max-width: 32px;
+  }
+  .card-header {
+    display: flex;
+  }
+  .screenshot-img {
+    max-width: 100%;
+    padding-bottom: 1px;
+    border-bottom: 1px solid;
+  }
+  
+  a > img {
+    width: 32px;
+  }
+  h2 {
+    text-align: center;
+  }
+  #about-me-git{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about-me-description{
+    margin: 8px 16px;
+  }
+  .project-card {
+    margin: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 8px 8px 8px #888888;
+  }
+  .card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    margin: 12px 0px;
+    padding: 0px 32px;
+  }
+  .card-details{
+    padding: 0px 16px;
+    margin: 0px 16px 16px 16px;
+  }
+  footer{
+    padding: 16px 0px;
+    background-color: steelblue;
+    color: white;
+  }
+  #footer-details {
+    margin: 0px 32px;
+  }
+  #footer-git {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
