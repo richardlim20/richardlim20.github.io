@@ -122,7 +122,14 @@ footer {
   #about-me-description {
     margin: 8px 16px;
   }
-
+  #project-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 128px;
+  }
+  footer{
+    padding:32px;
+  }
 
 }
 /* Laptop */
