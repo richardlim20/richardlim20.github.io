@@ -8,12 +8,15 @@ p {
 }
 h2 {
   font-weight: 500;
+  text-align: center;
+}
+#project-header {
+  padding-bottom: 32px;
+  border-bottom: solid 1px;
+  margin: 0px 16px;
 }
 .logo {
   max-width: 32px;
-}
-h2 {
-  text-align: center;
 }
 /* Profile section */
 header{
@@ -109,7 +112,6 @@ footer {
     float: left;
     z-index: 1;
     position: static;
-    
   }
   #about-me-container {
     box-shadow: 8px 8px 8px #888888;
@@ -121,6 +123,9 @@ footer {
   }
   #about-me-description {
     margin: 8px 16px;
+  }
+  #project-header {
+    margin: 0px 32px;
   }
   #project-card-container{
     display: grid;
