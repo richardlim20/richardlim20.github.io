@@ -15,9 +15,6 @@ h2 {
   border-bottom: solid 1px;
   margin: 0px 16px;
 }
-.logo {
-  max-width: 32px;
-}
 /* Profile section */
 header{
   background:linear-gradient(160deg ,steelblue 50%, white 50%);
@@ -43,8 +40,7 @@ header{
   padding-bottom: 1px;
   border-bottom: 1px solid;
 }
-
-a > img {
+a > .logo {
   width: 32px;
 }
 #about-me-git {
@@ -84,6 +80,13 @@ footer {
   padding: 16px 0px;
   background-color: steelblue;
   color: white;
+}
+#footer-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  font-size: larger;
 }
 
 /* Media Queries */
@@ -135,7 +138,12 @@ footer {
   footer{
     padding:32px;
   }
-
+  #about-me-git > a > .logo {
+    width: 48px;
+  }
+  #footer-git > a > .logo {
+    width: 48px;
+  }
 }
 /* Laptop */
 @media (min-width: 1000px){
@@ -190,5 +198,10 @@ footer {
   footer{
     padding:32px;
   }
-
+  #about-me-git > a > .logo {
+    width: 64px;
+  }
+  #footer-git > a > .logo {
+    width: 64px;
+  }
 }
