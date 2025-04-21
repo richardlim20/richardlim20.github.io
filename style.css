@@ -133,8 +133,57 @@ footer {
 
 }
 /* Laptop */
-@media (min-width: 1000){
-  body{
-    background-color: red;
+@media (min-width: 1000px){
+  header{
+    position: relative;
+    padding-top: 16px;
+    padding-right: 64px;
+    padding-bottom: 32px;
+    margin-left: 0px;
+    background:linear-gradient(170deg,steelblue 60%,white 40%);
+    /* overflow: hidden; */
   }
+  #profile-image-text {
+    position: absolute;
+    top: 10%;
+    right: 0px;
+    transform: none;
+    color: white;
+    font-size: xx-large;
+    z-index: 2;
+    margin-left: 180px;
+  }
+  #profile-image{
+    max-width: 600px;
+  }
+  #profile-image-container{
+    padding: 64px 32px 32px 64px;
+    float: left;
+    z-index: 1;
+    position: static;
+    
+  }
+  #about-me-container {
+    box-shadow: 8px 8px 8px #888888;
+    margin: 100px 64px;
+    padding: 64px;
+    top: 0%;
+    flex-grow: 1;
+    background-color: white;
+  }
+  #about-me-description {
+    margin: 8px 16px;
+  }
+  section{
+    margin: 0px 64px;
+  }
+  #project-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 128px;
+  }
+  footer{
+    padding:32px;
+  }
+
 }
