@@ -1,7 +1,7 @@
 const projects = [
   { //Urbix Hub
-    src: "assets/urbix-hub-screenshot.jpg",
-    alt: "Weather app screenshot",
+    src: "/assets/urbix-hub-screenshot.JPG",
+    alt: "Urbix Hub Screenshot",
     title: "Urbix Hub",
     details:
       "Developed front-end for booking site at Urbix Hub to support user web experience. Developed in Vite React with Tailwind CSS.",
