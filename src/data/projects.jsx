@@ -6,6 +6,15 @@ const projects = [
     details:
       "Developed front-end for booking site at Urbix Hub to support user web experience. Developed in Vite React with Tailwind CSS.",
   },
+  { //Memory Card Game
+    src: "assets/memorycard-screenshot.JPG",
+    alt: "Memory card game screenshot",
+    title: "Memory Card",
+    details:
+      "Memory Card game using PokeAPI. Developed and deployed using Vite React",
+    gitLink: "https://github.com/richardlim20/memory-card",
+    openLink: "https://richardlim20.github.io/memory-card",
+  },
   { //Battleship
     src: "assets/battleship-sc.JPG",
     alt: "Battleship screenshot",
