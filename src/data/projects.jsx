@@ -6,6 +6,15 @@ const projects = [
     details:
       "Developed front-end for booking site at Urbix Hub to support user web experience. Developed in Vite React with Tailwind CSS.",
   },
+  { //Mini message board
+    src: "assets/minimsg-screenshot.JPG",
+    alt: "Mini message board screenshot",
+    title: "Mini Messaging Board",
+    details:
+      "Mini messaging board app built with Express JS and PostgreSQL and using Model-View-Controller architecture. Hosted on Railway with data persistance",
+    gitLink: "https://github.com/richardlim20/mini-msgboard",
+    openLink: "https://mini-msgboard-production.up.railway.app/",
+  },
   { //Memory Card Game
     src: "assets/memorycard-screenshot.JPG",
     alt: "Memory card game screenshot",
